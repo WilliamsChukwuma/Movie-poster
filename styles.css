@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.movie-poster{
+   width: 80%; 
+   height: auto;
+   border: 5px solid #fff; 
+   background: none;
+   backdrop-filter: blur(50px);
+   position: relative;
+   box-shadow: 0 50px 55px -10px #000;
+}
+
+img{
+    float: right;
+}
+
+.title{
+    position: absolute;
+    color: #fff;
+    padding: 50px 80px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Meduim', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h3{
+    position: absolute;
+    font-size: 20px;
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    top: 110px;
+    left: 100px;
+}
+
+.info{
+    position: absolute;
+    top: 90px;
+    padding: 80px 30px;
+    color: #fff;
+}
+
+.cast-crew{
+    position: absolute;
+    top: 70%;
+    left: 38%;
+    bottom: 20%;
+    color: #060606;
+}
+
+button{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    padding: 10px 20px;
+    font-size: 20px;
+    border: 2px solid #fff;
+     background: none;
+     color: #f1f1f1;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+button:active{
+    color: black;
+    background-color: white;
+}
+
